@@ -1,0 +1,57 @@
+{
+  "name": "@local/dsh-abaqus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Drive Abaqus CAE modelling from DeepSeek Harness: declarative model spec -> CAE python / .inp generation -> solve -> result extraction, with a free CalculiX backend for verification.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feihong-li/dsh-abaqus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feihong-li/dsh-abaqus/issues"
+  },
+  "homepage": "https://github.com/feihong-li/dsh-abaqus#readme",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "test",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/pipeline-check.mjs && node test/beam-convergence.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "icon": "./icon.svg",
+  "meta": {
+    "title": "Abaqus 建模驱动",
+    "description": "用声明式模型规格驱动 Abaqus CAE 建模与求解，并用开源 CalculiX 后端离线验证。"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "abaqus",
+    "calculix",
+    "cae",
+    "fem",
+    "finite-element",
+    "simulation",
+    "deepseek-harness"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

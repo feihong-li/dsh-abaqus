@@ -1,0 +1,28 @@
+# Verification and build output
+test/out/
+*.stage/
+
+# Solver scratch produced by CalculiX / Abaqus in a case directory
+*.frd
+*.sta
+*.cvg
+*.12d
+*.odb
+*.msg
+*.prt
+*.sim
+spooles.out
+*.stdout.log
+*.case.json
+*.run.json
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+pnpm-lock.yaml
+package-lock.json

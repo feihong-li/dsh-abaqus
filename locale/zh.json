@@ -1,0 +1,4 @@
+{
+  "title": "Abaqus 建模驱动",
+  "description": "用声明式模型规格驱动 Abaqus CAE 建模与求解，并用开源 CalculiX 后端离线验证。"
+}

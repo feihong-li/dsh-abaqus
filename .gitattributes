@@ -1,0 +1,9 @@
+# Keep the published tree byte-identical across platforms: the solver decks and
+# generated python scripts are written with \n, and the test scripts compare
+# file content.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Abaqus driver">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5aa9ff"/>
+      <stop offset="1" stop-color="#1b4fd8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M18 48 L32 15 L46 48"/>
+    <path d="M24.5 36 H39.5"/>
+    <path d="M14 54 H50"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="18" cy="48" r="2.6"/>
+    <circle cx="46" cy="48" r="2.6"/>
+    <circle cx="32" cy="15" r="2.6"/>
+  </g>
+</svg>

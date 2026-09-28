@@ -1,0 +1,4 @@
+{
+  "title": "Abaqus Modelling Driver",
+  "description": "Drive Abaqus CAE modelling and solving from a declarative model spec, with a free CalculiX backend for offline verification."
+}
